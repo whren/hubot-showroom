@@ -58,6 +58,9 @@ var actions = {
         case "LS":
           video = "http://res.cloudinary.com/ntdc-showroom/video/upload/v1475059211/11979_006_30_sec_Liquid_Application_Studio_Overview_V5_wlq1lg.mp4";
           break;
+        case "ALEXA":
+          video = "http://res.cloudinary.com/ntdc-showroom/video/upload/v1481720753/Analyst.AI_-_Google_Chrome_13_12_2016_18_52_52_qzrrrl.mp4";
+          break;
         default:
           video = msg.match[2].trim();
       }
